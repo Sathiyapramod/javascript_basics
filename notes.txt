@@ -1,0 +1,35 @@
+basics:
+
+variables
+constants
+
+const 
+var
+let 
+
+data types:
+
+- number
+- string
+- boolean
+- null 
+- undefined 
+
+- array
+- object 
+
+comments - single line and multi-line comments 
+
+if 
+if else 
+if else if 
+
+let key words 
+scopes in javascript 
+
+
+loops in python / javascript 
+
+1. entry controlled loops
+2. exit controlled loops
+
