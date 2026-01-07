@@ -1,3 +1,5 @@
+Day 1:
+
 basics:
 
 variables
@@ -20,6 +22,8 @@ data types:
 
 comments - single line and multi-line comments 
 
+Day 2:
+
 if 
 if else 
 if else if 
@@ -33,3 +37,16 @@ loops in python / javascript
 1. entry controlled loops
 2. exit controlled loops
 
+Day 3:
+
+Typecasting / Type Coercion
+
+String to Number conversion
+parseInt
+Number
+
+Number to String conversion
+toString()
+String function
+
+parseFloat
