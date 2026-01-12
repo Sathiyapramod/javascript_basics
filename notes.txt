@@ -50,3 +50,11 @@ toString()
 String function
 
 parseFloat
+
+
+
+
+map vs forEach 
+
+1. map return type mandatory ; forEach return type not required 
+2. map does not require any sequence ;  forEach performs action  step by step(sequential) -> 
