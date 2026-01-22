@@ -12,19 +12,6 @@ Array.map((eachElement, itsIndex, entireArray) => {});
 -   Write javascript code for making each word to `Uppercase` inside ['apple','banana','orange']
 -   Write javascript code for converting a string to number inside ['90','20','13']
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # filter method
 
 ```javascript
@@ -43,3 +30,11 @@ Array.filter((element, itsIndex, entireArray) => {});
 Array.reduce((acc, element) => {});
 Array.reduce((acc, element, itsIndex, entireList) => {});
 ```
+
+## Problems
+
+-   Given `[3, 7, 12, 18, 21]` → filter numbers divisible by 3 - `[3, 12, 18, 21]`
+-   `names = ["John", "Steve", "Ravi"]` → ["Mr.John","Mr.Steve","Mr.Ravi"];
+-   Given a list of `ages = [12, 18, 21, 14, 25, 16, 30]`, filter the ages above 18
+
+

@@ -1,9 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            #primary {
+                background-color: cornflowerblue;
+                color: wheat;
+                padding: 10px;
+                border: 1px solid white;
+                border-radius: 8px;
+                width: 100px;
+            }
+
+            #myBox {
+                width: 300px;
+                height: 150px;
+                border-radius: 8px;
+                border: 3px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- input box -->
+        <label>Username</label><br />
+        <input type="text" id="name" placeholder="enter the name" />
+        <br />
+        <br />
+        <!-- button -->
+        <button id="primary">Click</button>
+        <br />
+        <br />
+        <!-- box -->
+        <div id="myBox"></div>
+    </body>
+    <script>
+        //  declaring one variable
+        // for input box
+        var myInputBox = document.getElementById('name');
+
+        // button click -> your button is clicked
+        var myButton = document.getElementById('primary');
+
+        var Box = document.getElementById('myBox');
+
+        myButton.addEventListener('click', function () {
+            let typedContent = myInputBox.value;
+            // Box.innerText = typedContent;
+            Box.innerHTML = `<h1>${typedContent}</h1>`;
+        });
+    </script>
 </html>
