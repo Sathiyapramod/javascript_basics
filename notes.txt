@@ -58,3 +58,20 @@ map vs forEach
 
 1. map return type mandatory ; forEach return type not required 
 2. map does not require any sequence ;  forEach performs action  step by step(sequential) -> 
+
+
+
+for in loop
+for of loop
+rest and spread operator 
+array and object destructuring 
+default parameters 
+
+DOM
+
+createElement 
+classList
+style
+
+JavaScript 
+closures
