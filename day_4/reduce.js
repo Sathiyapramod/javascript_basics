@@ -2,7 +2,6 @@ let marks = [88, 98, 87, 91, 74];
 
 // to find the total marks using reduce method
 let totalMarks = 0;
-
 totalMarks = marks.reduce((acc, element) => {
     let temp = acc + element;
     return temp;

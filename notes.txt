@@ -75,3 +75,29 @@ style
 
 JavaScript 
 closures
+
+
+
+
+
+create a div 
+inside a html file 
+
+- internal css 
+
+- width :500 px 
+- height : 500 px
+- border color :black
+- border type : solid 
+- border size : 1 px 
+- background color : cornflowerblue 
+- border radius : 8px 
+
+
+
+- array / object destructuring
+- box creation
+- without html / css, creating a particular tag 
+- document.appendChild()
+- alert and prompt 
+

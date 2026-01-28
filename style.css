@@ -1,0 +1,10 @@
+.myDiv {
+    background-color: cornflowerblue;
+    /* backgroundColor */
+    border-radius: 8px;
+    /* borderRadius */
+    justify-content: center;
+    /* justifyContent */
+    align-items: center;
+    /* alignItems */
+}
