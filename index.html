@@ -4,6 +4,40 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <style>
+            .flex {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: flex-start;
+                margin-bottom: 30px;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <div>
+            <form id="login-form">
+                <div class="flex">
+                    <label for="username">Email ID</label>
+                    <input
+                        type="email"
+                        id="emailId"
+                        name="emailId"
+                        placeholder="Enter username"
+                    />
+                </div>
+                <div class="flex">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter password"
+                    />
+                </div>
+                <button type="submit" id="loginBtn">Login</button>
+            </form>
+        </div>
+    </body>
+    <script src="./script.js"></script>
 </html>

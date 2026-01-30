@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hackathon Form</title>
+        <style>
+            div {
+                margin-bottom: 15px;
+            }
+            input {
+                border: 1px solid #a1a1a1;
+                border-radius: 8px;
+                padding: 8px;
+            }
+            input::placeholder {
+                color: #a1a1a1;
+            }
+            form {
+                border: 1px solid #a1a1a1;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hackathon Registration Form</h1>
+        <form>
+            <div>
+                <label for="studentName">Name of the Student</label>
+                <input
+                    type="text"
+                    id="studentName"
+                    placeholder="Type your name"
+                />
+            </div>
+
+            <div>
+                <label for="emailId">Email Id</label>
+                <input
+                    type="email"
+                    id="emailId"
+                    placeholder="Type your mail id"
+                />
+            </div>
+
+            <div>
+                <label for="college">Name of the college</label>
+                <input
+                    type="text"
+                    id="college"
+                    placeholder="Type your college name"
+                />
+            </div>
+
+            <div>
+                <label for="gender">Select your gender</label>
+                <!-- male -->
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <!-- female -->
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <!-- choice of meal -->
+            </div>
+            <div>
+                <!-- food choice -->
+            </div>
+        </form>
+    </body>
+</html>

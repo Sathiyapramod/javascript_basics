@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            button {
+                background-color: cornflowerblue;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                padding: 10px;
+            }
+            #finalResult {
+                color: red;
+            }
+            /* styling for input box */
+            .myInput {
+                border: 1px solid #a1a1a1;
+                border-radius: 8px;
+                padding: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div>
+                    The Current Value is
+                    <h1 id="finalResult">0</h1>
+                </div>
+                <button id="increment">+</button>
+                <button id="decrement">-</button><br /><br />
+                <button id="resetBtn">Reset</button>
+            </div>
+            <div>
+                <h2>Increment (or) Decrement By</h2>
+                <input type="number" min="0" class="myInput" id="myInput" />
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
