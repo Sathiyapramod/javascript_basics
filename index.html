@@ -1,43 +1,38 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <style>
-            .flex {
-                display: flex;
-                flex-direction: column;
-                justify-content: start;
-                align-items: flex-start;
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div>
-            <form id="login-form">
-                <div class="flex">
-                    <label for="username">Email ID</label>
-                    <input
-                        type="email"
-                        id="emailId"
-                        name="emailId"
-                        placeholder="Enter username"
-                    />
-                </div>
-                <div class="flex">
-                    <label for="password">Password</label>
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                        placeholder="Enter password"
-                    />
-                </div>
-                <button type="submit" id="loginBtn">Login</button>
-            </form>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document </title>
+    <style>
+        .section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 30px;
+            ;
+        }
+
+        .container {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="login-form">
+        <div class="section">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="myUsername" placeholder="enter your name" />
         </div>
-    </body>
-    <script src="./script.js"></script>
+        <div class="section">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="myPassword" placeholder="enter your password" />
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+<script src="./script.js" type="module"></script>
+
 </html>
