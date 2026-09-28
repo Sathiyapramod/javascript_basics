@@ -1,38 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document </title>
-    <style>
-        .section {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin-bottom: 30px;
-            ;
-        }
-
-        .container {
-            width: 50%;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-    <form id="login-form">
-        <div class="section">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="myUsername" placeholder="enter your name" />
-        </div>
-        <div class="section">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="myPassword" placeholder="enter your password" />
-        </div>
-        <button type="submit">submit</button>
-    </form>
+
 </body>
-<script src="./script.js" type="module"></script>
+<script>
+    console.log("start")
+    setTimeout(() => {
+        console.log("one second timer")
+    }, 1000)
+
+    setTimeout(() =>
+        console.log("zero second timer")
+        , 0)
+    const a = new Promise((resolve, reject) => {
+        if (2 < 3) resolve("2 is greater than 3")
+        else reject("invalid reason to reject")
+    })
+
+    a.then((response) => console.log(response)).catch((err) => console.log("err"))
+
+    setTimeout(() => {
+        console.log("2 second timer")
+    }, 2000)
+
+    console.log("stop")
+
+
+</script>
 
 </html>

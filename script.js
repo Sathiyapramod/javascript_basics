@@ -1,30 +1,30 @@
-var submitForm = document.getElementById('login-form');
+const user = {
+    name: 'alex',
+    id: 100,
+    status: true
+};
 
-submitForm.addEventListener('submit', (event) => {
-    event.preventDefault();
+// key value pairs
 
-    const { username, password } = event.target;
-    console.log(username.value, password.value);
+user.name = 'steve';
+user['id'] = 101;
 
-    const payload = {
-        username: username.value,
-        password: password.value
-    };
+console.log(user);
 
-    fetch('', {
-        method: 'POST',
-        body: JSON.stringify(payload)
-    })
-        .then((response) => {
-            // raw string data
-            // convert to readable JS object
-            return response.json();
-        })
-        .then((result) => {
-            // implementation logic
-        })
-        .catch((error) => {
-            console.log('error', error);
-        });
-    console.log('form is submitted');
-});
+const nums = [10, 20, 30];
+
+// for (let i = 0; i < nums.length; i++) {
+//     console.log(nums[i]);
+// }
+
+console.log(Object.keys(user));
+console.log(Object.values(user));
+
+// iteration
+// for loop
+for (let key in user) {
+    console.log(key, '-', user[key]);
+}
+
+delete user['status'];
+console.log(user);
